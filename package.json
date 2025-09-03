@@ -1,0 +1,23 @@
+{
+  "name": "form-reactjs",
+  "version": "1.0.0",
+  "private": true,
+  "homepage": "https://harshitupreti101.github.io/Form-Reactjs",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "vite": "^5.0.0",
+    "@vitejs/plugin-react": "^4.2.0",
+    "tailwindcss": "^3.4.0",
+    "gh-pages": "^6.3.0"
+  }
+}

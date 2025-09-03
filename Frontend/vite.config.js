@@ -8,4 +8,5 @@ export default defineConfig({
     react(),
     tailwindcss(),
   ],
+  base: '/Form-Reactjs/', // 👈 repo name goes here
 })
